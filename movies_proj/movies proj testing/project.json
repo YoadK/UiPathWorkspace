@@ -1,0 +1,82 @@
+{
+  "name": "movies proj testing",
+  "description": "movies proj with testing",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Microsoft.Activities": "[1.0.1]",
+    "UiPath.Excel.Activities": "[2.10.2-preview]",
+    "UiPath.Mail.Activities": "[1.10.2-preview]",
+    "UiPath.System.Activities": "[21.10.2]",
+    "UiPath.Testing.Activities": "[1.4.3]",
+    "UiPath.UIAutomation.Activities": "[21.10.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.2.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ba37a27d-816c-421c-b64e-87eb17c867cd",
+        "dataVariationFilePath": ".variations\\Movies_Testing_For_Yoad_Sheet1.json",
+        "fileName": "Test cases\\TestCase-openMoviesChallenge.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "222394d1-0042-45c9-9c36-8fe4950714b7",
+        "dataVariationFilePath": ".variations\\Movies_Testing_For_Yoad_Sheet1_1.json",
+        "fileName": "Test cases\\TestCase-searchForTextInMovie.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "53bb7377-4154-48dc-a964-902b3b361fc4",
+        "dataVariationFilePath": ".variations\\Movies_Testing_For_Yoad_Sheet1_2.json",
+        "fileName": "Test cases\\TestCase-closeBrowser.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3fc9986c-0e8a-4f36-a648-37de0d8b70c5",
+        "dataVariationFilePath": ".variations\\Movies_Testing_For_Yoad_Sheet1_3.json",
+        "fileName": "Test cases\\TestCase-Main.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "2e127dbe-1d97-46fb-8674-63effb81f09c",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
